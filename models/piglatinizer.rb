@@ -4,7 +4,7 @@ class PigLatinizer
 
 
 
-  def piglatinize(word)
+  def initialize(word)
 
    if !consonant?(word[0])
       word = word + "w"
